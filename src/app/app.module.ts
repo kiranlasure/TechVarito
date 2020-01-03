@@ -10,8 +10,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { ApproutingModule, routingComponent} from './approuting/approuting.module';
 import { ChannalsComponent } from './channals/channals.component';
 
+
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ,FlexLayoutModule ,RouterModule,ApproutingModule],
+  imports:      [ BrowserModule, FormsModule ,FlexLayoutModule ,RouterModule,ApproutingModule,MatButtonModule],
   declarations: [ AppComponent,routingComponent, ChannalsComponent],
   bootstrap:    [ AppComponent ]
 })
