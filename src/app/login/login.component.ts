@@ -16,12 +16,10 @@ export class LoginComponent implements OnInit {
 
   gotoReg()
   {
-        this.router.navigate['/reg']
+        
+        this.router.navigate(['/reg']);
   }
 
-  cl()
-  {
-    console.log("hi");
-  }
+  
 
 }
