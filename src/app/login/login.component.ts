@@ -12,14 +12,10 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
   }
-
-
+  
   gotoReg()
-  {
-        
+  {        
         this.router.navigate(['/reg']);
   }
-
-  
 
 }
