@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './login/register/register.component';
+// import { LoginComponent } from './login/login.component';
+// import { RegisterComponent } from './login/register/register.component';
+import { RouterModule, Routes } from '@angular/router';
+import { ApproutingModule, routingComponent} from './approuting/approuting.module';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ,FlexLayoutModule ],
-  declarations: [ AppComponent, LoginComponent, RegisterComponent],
+  imports:      [ BrowserModule, FormsModule ,FlexLayoutModule ,RouterModule,ApproutingModule],
+  declarations: [ AppComponent,routingComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
