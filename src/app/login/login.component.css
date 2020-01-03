@@ -1,9 +1,15 @@
-.secdiv{
+.mainHeading{
   height: 20vh;
   width: 100%;
   background: #ffffff;
-  border-bottom: 2px solid black;
 }
 .login{
   margin-top: 30px;
+  height: 50vh;
+  /* background: #dddadf; */
+  /* position: relative; */
+}
+.space
+{
+  margin-left: 5px;
 }
