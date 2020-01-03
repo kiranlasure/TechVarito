@@ -11,12 +11,7 @@ export class RegisterComponent implements OnInit {
 
   constructor() { }
 
-//   userForm = new FormGroup({
-// 	name: new FormControl('Mahesh', Validators.maxLength(10)),
-// 	age: new FormControl(20, Validators.required),
-// 	city: new FormControl(),
-// 	country: new FormControl()
-//  });
+
   ngOnInit() {
   }
 
@@ -25,7 +20,7 @@ export class RegisterComponent implements OnInit {
   {
       this.name2=val;
       localStorage.setItem("username",this.name2);
-      // console.log(val);
+
   }
 
   getItem()

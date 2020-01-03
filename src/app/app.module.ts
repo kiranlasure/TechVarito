@@ -8,10 +8,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 // import { RegisterComponent } from './login/register/register.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ApproutingModule, routingComponent} from './approuting/approuting.module';
+import { ChannalsComponent } from './channals/channals.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ,FlexLayoutModule ,RouterModule,ApproutingModule],
-  declarations: [ AppComponent,routingComponent],
+  declarations: [ AppComponent,routingComponent, ChannalsComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
