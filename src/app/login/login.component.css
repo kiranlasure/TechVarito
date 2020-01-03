@@ -1,0 +1,9 @@
+.secdiv{
+  height: 20vh;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 2px solid black;
+}
+.login{
+  margin-top: 30px;
+}
