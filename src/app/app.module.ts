@@ -12,7 +12,7 @@ import { ChannalsComponent } from './channals/channals.component';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ,FlexLayoutModule ,RouterModule,ApproutingModule,MatButtonModule],
+  imports:      [ BrowserModule, FormsModule ,FlexLayoutModule ,RouterModule,ApproutingModule],
   declarations: [ AppComponent,routingComponent, ChannalsComponent],
   bootstrap:    [ AppComponent ]
 })
